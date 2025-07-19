@@ -1,0 +1,14 @@
+name: Project_DExScreener_Scraper
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - ipykernel
+  - matplotlib
+  - numpy
+  - pandas
+  - httpx
+  - pip
+  - pip:
+      - requests
